@@ -31,13 +31,13 @@ nav ul li{
 
 nav ul li a {
     text-decoration: none;
-    color: #fafafa;
+    color:#fafafa;
     font-family: Shrikhand;
     letter-spacing: 1px;
 }
 
 .home-area{
-    background-image: url(bg2.jpg);
+    background-image: url("https://images.freeimages.com/images/large-previews/977/beach-1364350.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -66,4 +66,5 @@ nav ul li a {
 width: 30%;
 height: 40px;
 padding: 0 20px;
+
 }
