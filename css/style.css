@@ -68,3 +68,65 @@ height: 40px;
 padding: 0 20px;
 
 }
+
+.contact-area textarea {
+    width: 30%;
+    padding: 10px 20px;
+}
+
+.contact-area input[type=submit]{
+    background: saddlebrown;
+    padding:  10px 50px;
+    color:#fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+.wrapper{
+    width: 90%;
+}
+.contact-area input[type=text], .contact-area input[type=email] {
+    width: 85%;
+    height: 30px;
+    }
+
+    .contact-area textarea {
+          width: 85%;
+    }
+}
+
+@media only screen (max-width:767px){
+    .wrapper {
+        width:90%; 
+    }
+    nav {
+        display: none;
+    }
+    .home-area h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+
+    .banner-area p {
+        padding: 0 12% 0 0;
+    }
+    .about-area p, .portfolio-area p, .services-area p, .contact-area p {
+        line-height: 20px;
+        font-size: 13px;
+
+    }
+    .contact-area input[type=text], .contact-area input[type=email] {
+    width: 85%;
+    height: 30px;
+    }
+
+    .contact-area textarea {
+          width: 85%;
+    }
+}

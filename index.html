@@ -14,11 +14,11 @@
         <div class="wrapper">
             <nav>
                 <ul id="myMenu"> 
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#port">Portfolio</a></li>
-                    <li><a href="#service">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+                    <li data-menuanchor="about"><a href="#about">About</a></li>
+                    <li data-menuanchor="port"><a href="#port">Portfolio</a></li>
+                    <li data-menuanchor="service"><a href="#service">Services</a></li>
+                    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,14 +36,19 @@
         </div>
     </div>
 	<div class="section portfolio-area" id="port">
+    <div class="wrapper">
     <h3>Some works of mine</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum distinctio assumenda sunt nisi minus labore rerum quis sequi? Totam, nulla!</p>
     </div>
+    </div>
 	<div class="section services-area" id="service">
+    <div class="wrapper">
     <h3>This is my services</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum distinctio assumenda sunt nisi minus labore rerum quis sequi? Totam, nulla!</p>
     </div>
+    </div>
     <div class="section contact-area" id="contact">
+    <div class="wraper">
     <h3>Contact</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum distinctio assumenda sunt nisi minus labore rerum quis sequi? Totam, nulla!</p>
         <p><input type="text" placeholder="Enter your name"></p>
@@ -51,13 +56,25 @@
         <p><textarea cols="30" rows="10" placeholder="Enter your text"></textarea></p>
         <p><input type="submit" value="submit"></p>
     </div>
+    </div>
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="jquery.pagepiling.js"> </script>
 
     <script>
      $(document).ready(function() {
-	$('#pagepiling').pagepiling();
+	$('#pagepiling').pagepiling({
+        direction: 'vertical',
+        sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', '#03a0b0', '#ff6f69'],
+        anchors: ['home', 'about', 'port', 'service', 'contact'],
+        menu: '#myMenu',
+        navigation: {
+            'textColor': '#000',
+            'bulletsColor': '#000',
+            'position': 'right',
+            'tooltips': ['Home', 'About', 'Portfolio', 'Services', 'Contact']
+        },
+    });
 });
     </script>
 </body>
