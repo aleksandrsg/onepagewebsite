@@ -20,24 +20,26 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
+    
 }
 
 nav ul li{
 
     display: inline-block;
     padding: 15px 20px;
-
+  
 }
 
 nav ul li a {
     text-decoration: none;
-    color:#fafafa;
+    color:black;
     font-family: Shrikhand;
     letter-spacing: 1px;
+    font-size: 20px; 
 }
 
 .home-area{
-    background-image: url("https://images.freeimages.com/images/large-previews/977/beach-1364350.jpg");
+    background-image: url("https://images.freeimages.com/images/large-previews/b98/christmas-family-06-1388634.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -51,15 +53,37 @@ nav ul li a {
  margin: 0;
 
 }
+.callToAction{
+    background: red;
+    padding:  10px 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: solid 3px black;
+   
+}
+
+.callToAction a {
+ text-decoration: none;
+ color: black;
+}
 
 .wrapper{
     width: 1170px;
     margin: 0 auto;
 
 }
+.banner-area{
+    margin: 50px;
+}
+
+.banner-area h2 {
+    color:black;
+    letter-spacing: 10px;
+}
 
 .banner-area p {
     padding: 0 60% 0 0;
+    color: black;
 }
 
 .contact-area input[type=text], .contact-area input[type=email] {
@@ -130,3 +154,4 @@ padding: 0 20px;
           width: 85%;
     }
 }
+

@@ -7,6 +7,7 @@
     <title>One Page Web Site</title>
     <link rel="stylesheet" href="css/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="pagepiling">
@@ -23,10 +24,11 @@
             </nav>
         </div>
         <div class="banner-area">
-            <h2>Multipurpose </br>Website</h2>
+            <h2>Professional Family </br>Photographer</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Consequuntur sapiente officiis officia voluptatem praesentium libero nostrum eum 
             quisquam fugiat delectus rem ab commodi, laudantium itaque quia labore velit fuga quod.</p>
+            <button class="callToAction"><a href="#contact"> Order photo session</a> </button>
         </div>
     </div>
 	<div class="section about-area" id="about">
@@ -59,23 +61,7 @@
     </div>
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="jquery.pagepiling.js"> </script>
-
-    <script>
-     $(document).ready(function() {
-	$('#pagepiling').pagepiling({
-        direction: 'vertical',
-        sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', '#03a0b0', '#ff6f69'],
-        anchors: ['home', 'about', 'port', 'service', 'contact'],
-        menu: '#myMenu',
-        navigation: {
-            'textColor': '#000',
-            'bulletsColor': '#000',
-            'position': 'right',
-            'tooltips': ['Home', 'About', 'Portfolio', 'Services', 'Contact']
-        },
-    });
-});
-    </script>
+    <script src="js/jquery.pagepiling.js"> </script>
+    <script src="js/script.js"> </script>
 </body>
 </html>
