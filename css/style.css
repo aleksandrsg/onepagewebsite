@@ -95,7 +95,7 @@ nav ul li a {
 }
 
 .home-area{
-    background-image: url("https://images.freeimages.com/images/large-previews/b98/christmas-family-06-1388634.jpg");
+    background-image: url("https://images.freeimages.com/images/large-previews/a0c/dancer-jumping-doing-a-tilt-1632059.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -110,7 +110,7 @@ nav ul li a {
 
 }
 .callToAction{
-    background: red;
+    background:saddlebrown;
     padding:  10px 50px;
     font-size: 17px;
     text-transform: uppercase;

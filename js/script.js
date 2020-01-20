@@ -23,6 +23,6 @@ $(document).ready(function() {
     $(".callToAction").hover(function(){
         $(this).css("background", "grey");
         }, function(){
-         $(this).css("background", "red");
+         $(this).css("background", "saddlebrown");
     });
 });
