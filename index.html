@@ -7,7 +7,12 @@
     <title>One Page Web Site</title>
     <link rel="stylesheet" href="css/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pagepiling.js"> </script>
+    <script src="js/script.js"> </script>
 </head>
 <body>
     <div id="pagepiling">
@@ -38,15 +43,41 @@
         </div>
     </div>
 	<div class="section portfolio-area" id="port">
-    <div class="wrapper">
-    <h3>Some works of mine</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum distinctio assumenda sunt nisi minus labore rerum quis sequi? Totam, nulla!</p>
+    <div class="inner-width">
+    <h3>My Gallery</h3>
+    <div class="border"></div>
+       <div class="gallery">
+       <a href="https://images.freeimages.com/images/large-previews/b98/christmas-family-06-1388634.jpg" class="image">
+       <img src="https://images.freeimages.com/images/large-previews/b98/christmas-family-06-1388634.jpg">
+       </a>
+       <a href="https://images.freeimages.com/images/large-previews/a0c/dancer-jumping-doing-a-tilt-1632059.jpg" class="image">
+       <img src="https://images.freeimages.com/images/large-previews/a0c/dancer-jumping-doing-a-tilt-1632059.jpg">
+       </a>
+       <a href="https://images.freeimages.com/images/large-previews/487/barcalona-airport-arrival-1240880.jpg" class="image">
+       <img src="https://images.freeimages.com/images/large-previews/487/barcalona-airport-arrival-1240880.jpg">
+       </a>
+       <a href="https://images.freeimages.com/images/large-previews/421/bussines-center-of-tallinn-1640682.jpg" class="image">
+       <img src="https://images.freeimages.com/images/large-previews/421/bussines-center-of-tallinn-1640682.jpg">
+       </a>
+       <a href="https://images.freeimages.com/images/large-previews/6f0/spilled-milk-1326993.jpg" class="image">
+       <img src="https://images.freeimages.com/images/large-previews/6f0/spilled-milk-1326993.jpg">
+       </a>
+       <a href="https://images.freeimages.com/images/large-previews/bbf/candle-1423706.jpg" class="image">
+       <img src="https://images.freeimages.com/images/large-previews/bbf/candle-1423706.jpg">
+       </a>
+       <a href="https://images.freeimages.com/images/large-previews/6f9/sunset-surfer-1517584.jpg" class="image">
+       <img src="https://images.freeimages.com/images/large-previews/6f9/sunset-surfer-1517584.jpg">
+       </a>
+       <a href="https://images.freeimages.com/images/large-previews/9a6/poor-man-1440145.jpg" class="image">
+       <img src="https://images.freeimages.com/images/large-previews/9a6/poor-man-1440145.jpg">
+       </a>
+       </div>
     </div>
     </div>
 	<div class="section services-area" id="service">
     <div class="wrapper">
     <h3>This is my services</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum distinctio assumenda sunt nisi minus labore rerum quis sequi? Totam, nulla!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure fugiat facere rerum repellat magni corporis explicabo sequi facilis consectetur optio laborum amet a aliquam ad corrupti ea eveniet, quos numquam! </p>
     </div>
     </div>
     <div class="section contact-area" id="contact">
@@ -60,8 +91,14 @@
     </div>
     </div>
 </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/jquery.pagepiling.js"> </script>
-    <script src="js/script.js"> </script>
+<script>
+$ ('.gallery').magnificPopup({
+delegate: 'a',
+type: 'image',
+gallery: {
+enabled: true
+}
+});
+</script>
 </body>
 </html>

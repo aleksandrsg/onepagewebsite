@@ -1,3 +1,59 @@
+/*css code for Gallery*/
+* {
+margin: 0;
+padding: 0;
+font-family: "montserat", sans-serif;
+box-sizing: border-box;
+}
+.portfolio-area{
+width: 100%;
+padding: 60px 0;
+background: #f1f1f1;
+}
+
+.portfolio-area h3 {
+text-align: center;
+text-transform: uppercase;
+color: #333;
+}
+
+.border{
+width: 180px;
+height: 4px;
+background: #333;
+margin: 40px auto;
+}
+
+.inner-width {
+width: 100%;
+max-width: 1170px;
+margin: auto;
+padding: 0 20px;
+
+}
+
+.portfolio-area .gallery {
+display:flex;
+flex-wrap: wrap-reverse;
+justify-content: center;
+}
+
+.portfolio-area .image {
+flex: 25%;
+overflow:hidden;
+cursor:pointer;
+}
+
+.portfolio-area .image img {
+height: 100%;
+width: 100%;
+transform: 0.4s;
+}
+
+.portfolio-area .image:hover img {
+transform: scale(1.4) rotate(15deg);
+}
+/*---------------*/
 h3 {
     color:#fff;
     font-size:48px;
