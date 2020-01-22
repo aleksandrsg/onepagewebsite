@@ -25,4 +25,10 @@ $(document).ready(function() {
         }, function(){
          $(this).css("background", "saddlebrown");
     });
+
+    $('.me').hide();
+
+    $('.clickMe').click(function(){
+        $('.me').toggle(2000);
+    });
 });
