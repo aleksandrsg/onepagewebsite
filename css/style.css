@@ -193,6 +193,61 @@ padding: 0 20px;
     text-transform: uppercase;
     border: 0;
 }
+/*pricing*/
+
+.pricing{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex:33.33%;
+    padding: 10px;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.table{
+    background: #fff;
+    padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+}
+
+.table h2 {
+    text-transform: uppercase;
+}
+
+.table ul {
+    padding: 0;
+    margin: 0;
+}
+
+.table ul li {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.price {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.table a {
+    text-decoration: none;
+    color:#2c3e50;
+    border: 2px solid #2c3e50;
+    display: block;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 40px;
+}
 
 /*responsive css*/
 
