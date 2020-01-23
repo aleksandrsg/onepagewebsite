@@ -72,8 +72,12 @@ transform: scale(1.4) rotate(15deg);
 .me{
     text-align: center;
     margin-top:100px;
-    text-shadow: 3px 1px #333;
-    font-size: 22px;
+    /*text-shadow: 3px 1px #333;*/
+    font-size: 30px;
+    line-height:40px;
+    font-family: Shrikhand;
+    letter-spacing: 6px;
+
 }
 
 /*--------------*/
