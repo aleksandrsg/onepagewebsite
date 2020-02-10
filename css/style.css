@@ -47,7 +47,6 @@ cursor:pointer;
 .portfolio-area .image img {
 height: 100%;
 width: 100%;
-transform: 0.4s;
 }
 
 .portfolio-area .image:hover img {
@@ -265,35 +264,38 @@ padding: 0 20px;
     }
 }
 
-@media only screen (max-width:767px){
-    .wrapper {
-        width:90%; 
-    }
-    nav {
-        display: none;
-    }
-    .home-area h2 {
-        font-size: 25px;
-    }
-    h3 {
-        font-size: 30px;
-    }
+@media only screen (max-width:767px) {
+        .wrapper {
+            width:90%; 
+        }
 
-    .banner-area p {
-        padding: 0 12% 0 0;
-    }
-    .about-area p, .portfolio-area p, .services-area p, .contact-area p {
-        line-height: 20px;
-        font-size: 13px;
+        nav {
+            display: none;
+        }
 
-    }
-    .contact-area input[type=text], .contact-area input[type=email] {
-    width: 85%;
-    height: 30px;
-    }
+        .home-area h2 {
+            font-size: 25px;
+        }
 
-    .contact-area textarea {
-          width: 85%;
-    }
-}
+        h3 {
+            font-size: 30px;
+        }
 
+        .banner-area p {
+            padding: 0 12% 0 0;
+        }
+
+        .about-area p, .portfolio-area p, .services-area p, .contact-area p {
+            line-height: 20px;
+            font-size: 13px;
+        }
+    
+        .contact-area input[type=text], .contact-area input[type=email] {
+        width: 85%;
+        height: 30px;
+        }
+
+        .contact-area textarea {
+            width: 85%;
+        }
+    }
