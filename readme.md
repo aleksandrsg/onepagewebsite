@@ -14,11 +14,11 @@ In the photo industry, it’s usually good practice to have your own site on the
 
 That is why:
 
-As an owner of the web resource I want to represent my skills as a Photographer to everybody;
-Also as an owner of this wesite I want to provide my contact information, that everybody could communicate 
+* As an owner of the web resource I want to represent my skills as a Photographer to everybody;
+* Also as an owner of this wesite I want to provide my contact information, that everybody could communicate 
 with me;
-As an user I would like to find information about photo session price;
-As an owner I would like to represent my biography and professional skills.
+* As an user I would like to find information about photo session price;
+* As an owner I would like to represent my biography and professional skills.
 
 ### Technologies used ###
 
