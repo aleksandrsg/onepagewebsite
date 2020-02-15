@@ -172,6 +172,13 @@ nav ul li a {
     color: black;
 }
 
+/* Contact Area */
+
+.contact-area {
+    padding: 40px;
+}
+
+
 .contact-area input[type=text], .contact-area input[type=email] {
 width: 30%;
 height: 40px;
