@@ -79,7 +79,7 @@ transform: scale(1.4) rotate(15deg);
 
 }
 
-/*--------------*/
+/*----------Navigation -------*/
 h3 {
     color:#fff;
     font-size:48px;
@@ -120,6 +120,8 @@ nav ul li a {
     font-size: 20px; 
 }
 
+/*-------First Page--------*/
+
 .home-area{
     background-image: url("https://images.freeimages.com/images/large-previews/a0c/dancer-jumping-doing-a-tilt-1632059.jpg");
     -webkit-background-size: cover;
@@ -154,7 +156,7 @@ nav ul li a {
 }
 
 .wrapper{
-    width: 1170px;
+    width: 100%;
     margin: 0 auto;
 
 }
@@ -199,7 +201,7 @@ padding: 0 20px;
     text-transform: uppercase;
     border: 0;
 }
-/*pricing*/
+/*----- Pricing area -----*/
 
 .pricing{
     max-width: 1200px;
@@ -276,6 +278,7 @@ padding: 0 20px;
 /*responsive css*/
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
+
 .wrapper{
     width: 90%;
 }
@@ -288,7 +291,8 @@ padding: 0 20px;
           width: 85%;
     }
 }
-/*
+
+
 @media only screen (max-width:767px) {
         .wrapper {
             width:90%; 
@@ -324,4 +328,3 @@ padding: 0 20px;
             width: 85%;
         }
     }
-    */

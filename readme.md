@@ -10,6 +10,7 @@ It is a website for Photographer.
 
 ### UX ###
 
+Project wireframe you could find in directory Assets.
 In the photo industry, it’s usually good practice to have your own site on the site.
 
 That is why:
@@ -26,9 +27,9 @@ To develop Project the author use the following basic web technologies:
 
 * HTML,
 * CSS,
-* Javascript on jQuery library basis. To realize my idea I use two Javascript files with code.
+* Javascript on jQuery library basis. To realize my idea I have implemented two Javascript files with code.
 First, downloaded, installed and modified Plugin called jquery.pagepilling.js from 
-https://github.com/alvarotrigo/pagePiling.js/. Second file developed by myself.
+https://github.com/alvarotrigo/pagePiling.js/. Second file developed by myself script.js.
 * https://wireframe.cc/ to create wireframe online
 
 ### Testing ###
