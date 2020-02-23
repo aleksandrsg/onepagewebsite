@@ -32,3 +32,11 @@ $(document).ready(function() {
         $('.me').toggle(2000);
     });
 });
+
+$ ('.gallery').magnificPopup({
+delegate: 'a',
+type: 'image',
+gallery: {
+enabled: true
+}
+});
