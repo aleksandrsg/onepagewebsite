@@ -28,9 +28,22 @@ $(document).ready(function() {
 
     $('.me').hide();
 
-    $('.clickMe').click(function(){
-        $('.me').toggle(2000);
+    $('.me2').hide();
+
+    $('.myfoto').click(function(){
+        $('.me').toggle(3000);
     });
+
+        $('.next').click(function(){
+        $('.me').hide();
+        $('.me2').toggle(3000);
+    });
+
+    $('.back').click(function(){
+        $('.me2').hide();
+        $('.me').toggle(3000);
+    });
+
 });
 
 $ ('.gallery').magnificPopup({
