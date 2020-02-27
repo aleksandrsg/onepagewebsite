@@ -121,7 +121,7 @@ nav ul li a {
 
 .home-area{
     background-image: url("https://images.freeimages.com/images/large-previews/a0c/dancer-jumping-doing-a-tilt-1632059.jpg");
-    -webkit-background-size: cover;
+    -webkit-background-size: contain;
     background-size: cover;
     background-position: center center;
 
@@ -214,7 +214,6 @@ padding: 0 20px;
 .col{
     flex:33.33%;
     padding: 10px;
-    max-width: 400px;
     box-sizing: border-box;
 }
 
@@ -276,7 +275,7 @@ padding: 0 20px;
 /*responsive css*/
 
 
-@media screen and (min-width: 768px) and (max-width:991px) {
+@media screen and (min-width: 991px) and (max-width:1200px) {
 
 .wrapper{
     width: 90%;
@@ -345,7 +344,7 @@ padding: 0 20px;
             }
 
     }
-    @media screen and (max-width:320px) {
+    @media screen and (max-width:480px) {
 
     .myfoto{
           width: 80%;
@@ -364,4 +363,19 @@ padding: 0 20px;
             color: black;
             margin-top: 5px;
             }
-    }
+
+            .banner-area{
+            margin: 5px;
+            }
+
+            .callToAction{
+
+                background:saddlebrown;
+                font-size: 12px;
+                text-transform: uppercase;
+                border: solid 3px black; 
+                margin-left: 50px;
+                margin-top: 200px;
+            }
+}
+        }

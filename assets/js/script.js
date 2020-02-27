@@ -36,20 +36,13 @@ $(document).ready(function() {
 
         $('.next').click(function(){
         $('.me').hide();
-        $('.me2').toggle(3000);
+        $('.me2').toggle(1000);
     });
 
     $('.back').click(function(){
         $('.me2').hide();
-        $('.me').toggle(3000);
+        $('.me').show();
     });
 
 });
 
-$ ('.gallery').magnificPopup({
-delegate: 'a',
-type: 'image',
-gallery: {
-enabled: true
-}
-});
