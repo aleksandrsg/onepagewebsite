@@ -120,7 +120,7 @@ nav ul li a {
 /*-------First Page--------*/
 
 .home-area{
-    background-image: url("https://images.freeimages.com/images/large-previews/a0c/dancer-jumping-doing-a-tilt-1632059.jpg");
+    background-image: url("https://images.freeimages.com/images/large-previews/2ce/boy-band-4-1435026.jpg");
     -webkit-background-size: contain;
     background-size: cover;
     background-position: center center;
@@ -347,28 +347,19 @@ margin-bottom: 5px;
             }
 
     }
+
     @media screen and (max-width:480px) {
 
-    .myfoto{
-          width: 80%;
-          height: 100%;
-          margin-left: 0;
-          position: relative;
-      }
-        .me , .me2{
-            text-align: left;
-            font-size: 12px;
-            line-height:14px;
-            font-family: Shrikhand;
-            letter-spacing: 6px;
-            float: left;
-            width: 100%;
-            color: black;
-            margin-top: 5px;
+            .myfoto{
+                width: 80%;
+                height: 100%;
+                margin-left: 0;
+                position: relative;
             }
 
             .banner-area{
             margin: 5px;
+            text-align: center;
             }
 
             .callToAction{
@@ -377,8 +368,12 @@ margin-bottom: 5px;
                 font-size: 12px;
                 text-transform: uppercase;
                 border: solid 3px black; 
-                margin-left: 50px;
                 margin-top: 200px;
+                text-align: center;
             }
-}
-        }
+           .banner-area h2 {
+            text-align: center;
+            }       
+            .banner-area p {
+                text-align: center;
+            }
