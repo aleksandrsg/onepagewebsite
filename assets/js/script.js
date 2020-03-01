@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#pagepiling').pagepiling({
         direction: 'vertical',
-        sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', '#03a0b0', '#ff6f69'],
+        sectionsColor: ['#f2f2f2', '#4BBFC3', '#FFFAFA', '#03a0b0', '#ff6f69'],
         anchors: ['home', 'about', 'port', 'service', 'contact'],
         menu: '#myMenu',
         navigation: {
