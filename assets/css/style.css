@@ -84,6 +84,7 @@ transform: scale(1.4) rotate(15deg);
     height: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
+    cursor: pointer;  
 }
 .face.back {
     display: block;
@@ -159,7 +160,7 @@ nav ul li a {
     font-size: 17px;
     text-transform: uppercase;
     border: solid 3px black;
-   
+    cursor: pointer;  
 }
 
 .callToAction a {
@@ -219,9 +220,31 @@ margin-bottom: 5px;
     text-transform: uppercase;
     border: 0;
     margin-top: 20px;
+    cursor: pointer;  
 }
 
 /*----- Pricing area -----*/
+
+th {
+ font-size: 20px;
+}
+td, th {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.order{
+    background:none;
+    padding: 3px 10px 3px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: solid 2px #dddddd;
+    border-radius:12px;
+    cursor: pointer;        
+}
 
 /*responsive css*/
 
