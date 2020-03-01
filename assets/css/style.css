@@ -54,26 +54,45 @@ transform: scale(1.4) rotate(15deg);
 }
 /*--------About me-------*/
 
-.myfoto {
-    margin-left: 30px;
-    height:auto;
-    width: 30%;
-    float:left;
+.f1_container {
+    position: relative;
+    margin:10px;
+    width: 300px;
+    height: 300px;
+    z-index : 1;
+    margin: 0 auto;
 }
-
-.me , .me2{
-    text-align: left;
-    margin-top:100px;
-    /*text-shadow: 3px 1px #333;*/
-    font-size: 28px;
-    line-height:40px;
-    font-family: Shrikhand;
-    letter-spacing: 6px;
-    float:right;
+.f1_container {
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+.f1_card {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: all 1.0s linear;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+.f1_container.active .f1_card {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.face {
     position: absolute;
-    right:0;
-    width: 65%;
-
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.face.back {
+    display: block;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    background-color: none;
 }
 
 /*----------Navigation -------*/

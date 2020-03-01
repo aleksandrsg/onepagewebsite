@@ -26,23 +26,7 @@ $(document).ready(function() {
          $(this).css("background", "saddlebrown");
     });
 
-    $('.me').hide();
-
-    $('.me2').hide();
-
-    $('.myfoto').click(function(){
-        $('.me').toggle(3000);
-    });
-
-        $('.next').click(function(){
-        $('.me').hide();
-        $('.me2').toggle(1000);
-    });
-
-    $('.back').click(function(){
-        $('.me2').hide();
-        $('.me').show();
-    });
-
+    $('.f1_container').click(function() {
+    $(this).toggleClass('active');
+        });
 });
-
