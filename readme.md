@@ -58,7 +58,7 @@ big size image mode.
 
 Fourth Page (Prices), contains three Plans (Basic, Standard, Premium). For each Plan there should be one <DIV> element,
 but this structure was not responsive in mobile version, two of three elements were out of screen. 
-The problem was solved by changing <DIV> elements to <Table> with three <th> and <td> elements with css combination.
+The problem was solved by changing <DIV> elements to <Table> with three TH and TD elements with css combination.
 
 Fifth Page (Contact), for better visualization Contact Form was moved from left to the center in both versions 
 Desktop amn Mobile.
