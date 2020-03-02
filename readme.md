@@ -40,6 +40,24 @@ The Project developed and tested with:
 * CSS Validator - https://jigsaw.w3.org/css-validator/
 * HTML Validator - https://validator.w3.org/
 
+The main purpose of testing was to verify and identify that the page elements are visible and
+located correctly in mobile version first. 
+
+First Page (Home) elements (Naigation, Heading, Text and Button) located on their positions in Desktop version.
+Navigation menu items change size and color when mouse is hover. Button (Order) change color and links to other 
+page Prices on click. The Mobile version of this page has a different look: elements from the left moved to the center
+and the top navigation menu disappered.
+
+Second Page (About), click on image, image flips and there is information on the other side of it. Click it
+again and image flips back.
+
+Third Page (Portfolio), consists of eight images, divided by four images in line. 
+When mouse is over the image it changes scale and rotates by 15 degrees giving the impression of movement.
+On click image change size to bigger. Click on close button in top right top corner and it will close 
+big size image mode. 
+
+Fourth Page (Prices), from 
+
 ### Deployment ###
 
 Deployment steps:

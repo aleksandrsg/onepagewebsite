@@ -8,7 +8,7 @@ $(document).ready(function() {
             'textColor': '#000',
             'bulletsColor': '#000',
             'position': 'right',
-            'tooltips': ['Home', 'About', 'Portfolio', 'Services', 'Contact']
+            'tooltips': ['Home', 'About', 'Portfolio', 'Prices', 'Contact']
         },
         });
 
