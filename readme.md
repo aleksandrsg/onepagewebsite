@@ -88,5 +88,8 @@ Deployment steps:
 
 Photographs for Project are taken from free online resource:
 
-https://ru.freeimages.com/
+https://ru.freeimages.com
+
+Javascript Plugin
+
 https://github.com/alvarotrigo/pagePiling.js/
